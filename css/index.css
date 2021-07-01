@@ -107,3 +107,79 @@ footer{
     color: #ddd;
 
   }
+  .titles2 {
+    font-size: 3.8rem;
+  }
+
+
+@media (min-width:1025px) {
+    body {
+        
+        margin-bottom: 100px;
+        clear: both;
+        padding-bottom:100px;
+    }
+    .wrapper {
+        max-width: 1300px;
+        
+    }
+
+    #left{
+        
+        width: 27%;
+       position: relative;
+       clear: both;
+       float: left;
+       right:-15px;
+      
+      
+    }
+    
+    #top{
+        float: right;
+        width: 70%;
+        top: 20px
+    }
+
+    #bottom {
+        margin-top: 40px;
+        float: right;
+        width: 70%;
+        right:-15px;
+    }
+    .projects {
+        width: 40%;
+        height: auto;
+        display: table-cell;
+        padding: 10px
+    }
+    #susPics {
+        
+        display: flex;
+        overflow: auto;
+    }
+    #susPics img {
+        width: 33%;
+        height: auto;
+    }
+    footer{
+        height:140px;
+    }
+    body{
+        padding-bottom: 0;
+    }
+    .wrapper{ 
+        bottom: 0;
+    }
+    #myName{
+        bottom: 550px;
+        color: black;
+    }
+
+
+}
+
+
+
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
