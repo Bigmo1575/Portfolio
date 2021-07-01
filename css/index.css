@@ -1,0 +1,109 @@
+
+body {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+    padding-bottom:100px;
+}
+
+.wrapper{
+    
+    margin: 5rem auto ; /*the auto for the left/right keeps the page centered*/
+    padding: 1rem;
+    position: absolute;
+    background-color: lightgray;
+    top:-50px;
+    
+    right: 0px;
+    left: 0px;
+
+}
+
+#left{
+    margin-top: 20px;
+   position: relative;
+   padding-bottom: 10px;
+ 
+   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+   background-color: white;
+   
+  
+}
+img{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    padding: 0;
+}
+#myName{
+    position: absolute;
+    z-index: 1;
+    bottom: 370px;
+    left: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ddd;
+
+}
+#links {
+    left: o;
+}
+
+.text {
+    padding: 10px;
+}
+
+
+.titles {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+#top{
+    left:0;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+   background-color: white;
+}
+.projects {
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+li{
+    list-style-type: none;
+    left: 0;
+    text-align: left;
+    padding: 0;
+}
+
+#bottom {
+    left:0;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+   background-color: white;
+   padding-bottom: 90px;
+    
+}
+
+footer{
+    position:fixed;
+  bottom:0;
+  width:100%;
+  height:90px;
+  text-align: center;
+  color: #ddd;
+  background-color:teal;
+    }
+  .socialLinks i {
+    padding: 20px;
+    font-size: 23px;
+    padding-right: 4px;
+    color: #ddd;
+
+  }
