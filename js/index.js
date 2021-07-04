@@ -38,7 +38,7 @@ allFolders.each(function() {
 
   // now add a slideToggle to the <a> we just added
   folderAndName.find("a").click(function(e) {
-    $(this).siblings("ul").slideToggle("slow");
+    $(this).siblings("ul").stop().slideToggle("slow");
     e.preventDefault();
   });
 
