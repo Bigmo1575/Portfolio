@@ -1,5 +1,4 @@
 
-
 body {
     min-height: 400px;
     margin-bottom: 100px;
@@ -39,7 +38,7 @@ img{
 #myName{
     position: absolute;
     z-index: 1;
-    bottom: 530px;
+    bottom: 660px;
     left: 10px;
     font-size: large;
     font-weight: bold;
@@ -57,7 +56,7 @@ img{
 
 
 .titles {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-weight: 300;
 }
 
@@ -109,7 +108,7 @@ footer{
 
   }
   .titles2 {
-    font-size: 3.8rem;
+    font-size: 2.8rem;
   }
 
 
@@ -135,6 +134,10 @@ footer{
        right:-15px;
       
       
+    }
+    .titles {
+        font-size: 3rem;
+        font-weight: 300;
     }
     
     #top{
@@ -182,7 +185,7 @@ footer{
         bottom: 0;
     }
     #myName{
-        bottom: 550px;
+        bottom: 625px;
         color: black;
     }
 
